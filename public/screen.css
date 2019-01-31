@@ -72,10 +72,30 @@ ul {
 }
 
 .projects img {
-    width: 22rem;
+    width: 35rem;
     padding-bottom: 1rem;
 }
 
 .projects ul {
     padding-left: 0px;
+}
+
+article {
+    background-color: rgba(255, 255, 242);
+}
+
+.postImage {
+    background-image: url('images/react.png');
+    background-size: cover;
+    background-position-y: -8.5rem;
+    height: 3rem;
+    padding: 0rem;
+}
+
+.post2Image {
+    background-image: url('images/code.png');
+    background-size: cover;
+    background-position-y: -8.5rem;
+    height: 3rem;
+    padding: 0rem;
 }
