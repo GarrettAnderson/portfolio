@@ -23,6 +23,7 @@ header {
     align-items: center;
     background-image: url('images/space.png');
     padding: 3rem 0rem;
+    background-repeat: no-repeat;
 }
 
 header div {
@@ -66,4 +67,15 @@ ul {
     justify-content: center;
     align-items: center;
     background-image: url('images/space.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.projects img {
+    width: 22rem;
+    padding-bottom: 1rem;
+}
+
+.projects ul {
+    padding-left: 0px;
 }
