@@ -57,6 +57,10 @@ ul {
     list-style: none;
 }
 
+article {
+    background-color: rgba(255, 255, 242);
+}
+
 .selectHeaderText {
     display: none;
 }
@@ -72,16 +76,12 @@ ul {
 }
 
 .projects img {
-    width: 35rem;
+    width: 30rem;
     padding-bottom: 1rem;
 }
 
 .projects ul {
     padding-left: 0px;
-}
-
-article {
-    background-color: rgba(255, 255, 242);
 }
 
 .postImage {
