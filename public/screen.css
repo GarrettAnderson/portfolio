@@ -59,3 +59,11 @@ ul {
 .selectHeaderText {
     display: none;
 }
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/space.png');
+}
