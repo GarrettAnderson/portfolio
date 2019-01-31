@@ -21,6 +21,35 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url('images/space.png');
+    padding: 3rem 0rem;
+}
+
+header div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 242, 0.5);
+    color: rgb(49, 49, 49);
+    padding: 0px 1rem;
+    text-align: center;
+    width: 15rem;
+    border-radius: 0.3rem;
+}
+
+header img {
+    border-radius: 1rem;
+    padding-bottom: 2rem;
+}
+
+header h1 {
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+header p {
+    margin-top: 0px;
 }
 
 ul {
