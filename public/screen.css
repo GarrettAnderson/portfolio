@@ -14,6 +14,7 @@ body {
     margin: 0;
     min-height: 100%;
     font-family: 'Roboto', sans-serif;
+    background-color: #031019;
 }
 
 header {
@@ -59,6 +60,16 @@ ul {
 
 article {
     background-color: rgba(255, 255, 242);
+    border-radius: 0px 0px 5px 5px;
+}
+
+article > span {
+    display: flex;
+}
+
+footer {
+    background-color: antiquewhite;
+    /* background-color: #031019; */
 }
 
 .selectHeaderText {
@@ -82,15 +93,16 @@ article {
 
 .projects ul {
     padding-left: 0px;
-    margin: -3px;
+    /* margin: -3px; */
 }
 
 .postImage {
     background-image: url('images/react.png');
     background-size: cover;
     background-position-y: -8.5rem;
-    height: 3rem;
-    padding: 0rem;
+    height: 1rem;
+    padding: 1rem;
+    border-radius: 5px 5px 0px 0px;
 }
 
 .post2Image {
@@ -102,8 +114,12 @@ article {
 }
 
 .blogPosts ul {
-    background-color: #031019;
+    /* background-color: #031019; */
     display: flex;
     flex-direction: column;
-    padding-left: 0px;
+    padding: 0px 22px;
+    /* margin: -3px; */
+}
+
+.blogPosts header {
 }
