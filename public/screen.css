@@ -67,11 +67,55 @@ article > span {
     display: flex;
 }
 
+/* Footer Styles */
 footer {
-    background-color: antiquewhite;
-    /* background-color: #031019; */
+    background-color: #031019;
 }
 
+footer > h2 {
+    text-align: center;
+}
+
+footer h2 {
+    color: #fff;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+}
+
+/* Footer Social Media Icons */
+
+footer > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0rem 7rem;
+}
+
+footer > ul > li {
+    border: 1px solid #1483d2;
+    border-radius: 7em;
+    background-color: #1483d2;
+    padding: 0rem;
+    height: 2em;
+    margin: 0rem 1rem;
+}
+
+.fa-twitter {
+    color: #fff;
+}
+
+/* End Icon Styles */
+
+footer span {
+    display: none;
+}
+
+/* End Footer Styles */
+
+/* Hide some text from the header on mobile view */
 .selectHeaderText {
     display: none;
 }
