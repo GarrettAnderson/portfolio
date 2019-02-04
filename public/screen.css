@@ -234,3 +234,46 @@ footer > ul > li {
 /* End Icon Styles */
 
 /* End Footer Styles */
+
+/* Mobile to Tablet  */
+
+@media only screen and (min-width: 700px) and (max-width: 1024px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        /* background-image: url('images/space.png'); */
+        padding: 3rem 0rem;
+        /* background-repeat: no-repeat; */
+    }
+    .selectHeaderText {
+        display: inline;
+    }
+    /* .projects {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        /* background-image: url('images/space.png'); */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; 
+}*/
+
+    .projects ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .projects img {
+        width: 12rem;
+    }
+
+    button {
+        left: 21rem;
+        position: relative;
+    }
+}
