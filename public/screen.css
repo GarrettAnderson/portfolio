@@ -44,7 +44,7 @@ header div {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(255, 255, 242, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     color: rgb(49, 49, 49);
     padding: 0px 1rem;
     text-align: center;
@@ -138,7 +138,8 @@ button {
     width: 6rem;
     position: relative;
     top: 15px;
-    left: 14rem;
+    /* left: 14rem; */
+    margin-left: 78%;
     height: 2rem;
     cursor: pointer;
 }
@@ -237,6 +238,8 @@ footer > ul > li {
 
 /* Mobile to Tablet  */
 
+/* @media only screen and (min-width: 700px) and (max-width: 1024px) */
+
 @media only screen and (min-width: 700px) and (max-width: 1024px) {
     header {
         display: flex;
@@ -272,8 +275,80 @@ footer > ul > li {
         width: 12rem;
     }
 
-    button {
-        left: 21rem;
+    header div {
+        width: 30rem;
+        margin-bottom: 4%;
+    }
+
+    header img {
+        margin-top: 5%;
+        margin-left: 12%;
+    }
+
+    .textBubble {
+        margin-bottom: 10%;
+        margin-right: 15%;
+    }
+
+    .textBubble:after {
+        content: url('images/tri.png');
+        opacity: 0.5;
         position: relative;
+        top: 1.4rem;
+        right: 13rem;
+    }
+    button {
+        margin-left: 35%;
+        position: relative;
+    }
+}
+
+/* Desktop styles */
+
+@media only screen and (min-width: 1024px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        /* background-image: url('images/space.png'); */
+        padding: 3rem 0rem;
+        /* background-repeat: no-repeat; */
+    }
+    .selectHeaderText {
+        display: inline;
+    }
+    .projects ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .projects img {
+        width: 12rem;
+    }
+
+    header div {
+        width: 30rem;
+        margin-bottom: 4%;
+    }
+
+    header img {
+        margin-top: 5%;
+        margin-left: 12%;
+    }
+
+    .textBubble {
+        margin-bottom: 10%;
+        margin-right: 15%;
+    }
+
+    .textBubble:after {
+        content: url('images/tri.png');
+        opacity: 0.5;
+        position: relative;
+        top: 1.4rem;
+        right: 13rem;
     }
 }
