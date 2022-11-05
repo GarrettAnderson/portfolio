@@ -25,13 +25,13 @@ i {
     cursor: pointer;
 }
 
-ul {
+nav ul {
     list-style: none;
     display: none; 
     /* transition:all 2s ease-in-out; */
 }
 
-ul.open {
+nav ul.open {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -63,12 +63,12 @@ img {
 }
 
 figcaption {
-    position: absolute;
-    left: 20%;
-    /* bottom: -45%; */
+    position: relative;
+    left: 8%;
+    bottom: 4rem;
     border: 1px solid;
     padding: 1rem;
-
+    width: 20%
 }
 
 section {
@@ -105,9 +105,20 @@ footer {
         display: none;
     }
     
-    ul {
+    nav ul {
         display: inline;
     }
 
+    .about-me {
+        display: flex;
+    }
+
+    .my-work {
+        display: flex
+    }
+
+    .contact-me {
+        display: flex;
+    }
     
 }
