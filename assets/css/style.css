@@ -131,4 +131,17 @@ footer {
     .contact-me ul li {
         border-bottom: 5px solid #FE8946;
     }
+
+    .my-work span {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* .my-work span li {
+        margin: 0;
+    } */
+
+    .my-work span figcaption {
+        width: 30%
+    }
 }
