@@ -9,6 +9,7 @@ header {
     margin: 0;
     color: #F7F7F5;
     border-bottom: 10px solid #CDA867;
+    display: flex;
 }
 
 nav {
