@@ -159,9 +159,26 @@ footer {
     .my-work span {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        padding: 2.5rem;
+        position: relative;
+        bottom: 8.2rem;
     }
 
     .my-work span li {
+        margin: 0;
+    }
+
+    .my-work li:nth-child(3) {
+        position: relative;
+        bottom: 3.5rem;
+    }
+    
+    .my-work li:nth-child(4) {
+        position: relative;
+        bottom: 3.5rem;
+    }
+
+    .my-work span figure {
         margin: 0;
     }
 
