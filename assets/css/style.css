@@ -77,15 +77,13 @@ section {
     color: #F7F7F5
 }
 
-form {
-    width: 30%;
-    margin: 0 auto;
-    border: 5px solid #FE8946;
+.contact-me ul {
+    display: flex;
+    flex-direction: column;
 }
 
-fieldset {
-    border: none;
-    padding-bottom: 5px
+.contact-me ul li {
+    border-bottom: 5px solid #FE8946;
 }
 
 footer {
@@ -142,10 +140,6 @@ footer {
 
     }
 
-    .contact-me ul li {
-        border-bottom: 5px solid #FE8946;
-    }
-
     .my-work h2 {
         width: 30%;
     }
@@ -172,7 +166,7 @@ footer {
         position: relative;
         bottom: 3.5rem;
     }
-    
+
     .my-work li:nth-child(4) {
         position: relative;
         bottom: 3.5rem;
