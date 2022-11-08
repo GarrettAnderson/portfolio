@@ -12,31 +12,37 @@ header {
     display: flex;
 }
 
-nav {
+.nav-menu {
     display: flex;
     flex-direction: column;
     align-items: end;
     width: 100%;
 }
 
-i {
+.nav-menu i {
     font-size: 2rem;
     margin: 1rem;
     cursor: pointer;
 }
 
-nav ul {
+.nav-list {
     list-style: none;
-    display: none; 
-    /* transition:all 2s ease-in-out; */
-}
-
-nav ul.open {
+    height: 0;
     display: flex;
     flex-direction: column;
     text-align: center;
     width: 100%;
-    height: auto;
+    /* display: none;  */
+    /* -webkit-transition:all .26s ease-in-out;
+    -moz-transition:all .26s ease-in-out;
+    -ms-transition:all .26s ease-in-out;
+    -o-transition:all .26s ease-in-out; */
+    transition:all 2s ease-in-out;
+}
+
+.nav-list.open {
+    height: 7rem;
+    /* transition:all 2s ease-in-out;  */
 }
 
 li {
@@ -54,7 +60,8 @@ h1, figure, section {
 }
 
 .headshot {
-    width: 30%;
+    width: 40%;
+    height: 20%;
     border-radius: 50%;
 }
 
