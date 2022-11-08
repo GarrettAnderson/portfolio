@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'Roboto', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #CBD4D1
 }
 
 header {
@@ -81,8 +82,13 @@ figcaption {
     width: 20%
 }
 
+.first-figcaption {
+    left: 4%;
+    width: 20% !important;
+}
+
 section {
-    background-color: #CBD4D1;
+    /* background-color: #CBD4D1; */
     /* border-top: 10px solid #FE8946; */
     color: #F7F7F5
 }
@@ -90,6 +96,7 @@ section {
 .contact-me ul {
     display: flex;
     flex-direction: column;
+    padding: 0;
 }
 
 .contact-me ul li {
