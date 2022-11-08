@@ -82,9 +82,19 @@ figcaption {
     width: 20%
 }
 
-.first-figcaption {
+/* .first-figcaption {
     left: 4%;
     width: 20% !important;
+} */
+
+.my-work ol figcaption {
+    width: 35%;
+    background-color: #CBD4D1;
+}
+
+.my-work span figcaption {
+    width: 40%;
+    background-color: #CBD4D1;
 }
 
 section {
@@ -201,7 +211,12 @@ footer {
         margin: 0;
     }
 
-    .my-work ol figcaption {
+    .first-figcaption {
+        left: 4%;
+        width: 20% !important;
+    }
+
+    /* .my-work ol figcaption {
         width: 35%;
         background-color: #CBD4D1;
     }
@@ -209,7 +224,7 @@ footer {
     .my-work span figcaption {
         width: 40%;
         background-color: #CBD4D1;
-    }
+    } */
 }
 
 /* setting following media query because image layout breaks between these viewport sizes */
