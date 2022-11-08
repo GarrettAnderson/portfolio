@@ -13,61 +13,101 @@
 
   <body>
     <header>
-        <!-- <h1>My New Website</h1> -->
-        <nav>
+        <!-- <h1>Garrett Anderson</h1> -->
+        <nav class="nav-menu">
             <!-- burger icon for mobile nav -->
                 <i class="fa-solid fa-bars burger-icon-menu"></i>
             <!-- END burger icon for mobile nav -->
-            <ul>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">My Work</a></li>
-                <li><a href="#">Contact Me</a></li>
+            <!-- Close mobile menu icon -->
+                <i class="fa-solid fa-x close-mobile-menu-icon"></i>
+            <!-- END Close mobile menu icon -->
+
+            <ul class="nav-list">
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#my-work">My Work</a></li>
+                <li><a href="#contact-me">Contact Me</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
 
-        <section id="about-me">
-
-            
+        <section id="about-me" class="about-me">
+            <img src="./assets/images/cropHeadShot.png" class="headshot"/>
+            <section>
+                <h2>About Me</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </section>
         </section>
 
 
+        <section id="my-work" class="my-work">
+            <h2>My Work</h2>
+            <ol>
+                <li>
+                    <figure>
+                        <img src="./assets/images/fieldOfFlowers.jpg" alt="field-of-flowers"/>
+                        <figcaption class="first-figcaption">Project 01</figcaption>
+                    </figure>
+                </li>
 
-        <h1>My Work</h1>
-        <figure>
-            <img src="./assets/images/fieldOfFlowers.jpg"/>
-            <figcaption>Field of Flowers. How lovely.</figcaption>
-        </figure>
+                <span>
 
-        <section>
+                    <li>
+                        <figure>
+                            <img src="./assets/images/placeholder-image.jpg" alt="cherry-blossoms"/>
+                            <figcaption>Project 02</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./assets/images/yellow-flowers.jpg" alt="yellow-flowers"/>
+                            <figcaption>Project 03</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./assets/images/blue-flowers.jpg" alt="blue-flowers"/>
+                            <figcaption>Project 04</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./assets/images/wild-flowers.jpg" alt="wild-flowers"/>
+                            <figcaption>Project 05</figcaption>
+                        </figure>
+                    </li>
+                </span>
+            </ol>
+        </section>
+
+        <section id="contact-me" class="contact-me">
             <h2>Contact Me</h2>
-            <form>
-                <fieldset>
-                    <label for="name">Name</label>
-                    <input id="name" type="text"/>
-                </fieldset>
-                <fieldset>
-                    <label for="email">Email</label>
-                    <input id="email" type="text"/>
-                </fieldset>
-                <button>Send</button>
-            </form>
+            <ul>
+                <li>
+                    407-718-1889
+                </li>
+                <li>
+                    glga@protonmail.com
+                </li>
+                <li>
+                    <a href="#">Github</a>
+                </li>
+                <li>
+                    <a href="#">LinkedIn</a>
+                </li>
+            </ul>
         </section>
     </main>
 
     <footer>
         <p>
-            Module 01 Mini-Project
+            &copy; 2022 Garrett Lee Graham Anderson
         </p>
     </footer>
   </body>
 
-  <script
-  src="https://code.jquery.com/jquery-1.12.4.min.js"
-  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
-  crossorigin="anonymous"></script>
+  
   <script src="script.js"></script>
 
 </html>
