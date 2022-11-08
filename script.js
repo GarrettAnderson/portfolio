@@ -8,15 +8,17 @@ const closeMenuIcon = document.querySelector('.close-mobile-menu-icon')
 const navMenu = document.querySelector('ul')
 const header = document.querySelector('header')
 
+
 function openMenu() {
     navMenu.classList.add('open')
-    // menuIcon.style.visibility = 'hidden'
+    menuIcon.style.display = 'none'
+    closeMenuIcon.style.display = 'inline'
 }
 
 function closeMenu() {
-    console.log('close mobile menu')
     navMenu.classList.remove('open')
-
+    closeMenuIcon.style.display = 'none'
+    menuIcon.style.display = 'inline'
 }
 
 menuIcon.addEventListener('click', openMenu)

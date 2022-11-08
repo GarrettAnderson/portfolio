@@ -27,6 +27,11 @@ header {
     cursor: pointer;
 }
 
+/* hide the close mobile menu icon on initial page load */
+i.close-mobile-menu-icon {
+    display: none;
+}
+
 .nav-list {
     list-style: none;
     height: 0;
@@ -68,6 +73,10 @@ h1, figure, section {
     height: 20%;
     padding: 0.5rem;
     border-radius: 50%;
+}
+
+.about-me p {
+    margin: 0 3rem;
 }
 
 img {
@@ -130,6 +139,10 @@ footer {
     }
 
     i.burger-icon-menu {
+        display: none;
+    }
+
+    i.close-mobile-menu-icon {
         display: none;
     }
     
