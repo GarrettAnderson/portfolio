@@ -169,6 +169,10 @@ footer {
         padding: 2rem 4rem;
     }
 
+    .about-me p {
+        margin: 0;
+    }
+
     .my-work {
         display: flex
     }
