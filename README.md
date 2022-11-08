@@ -33,7 +33,10 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 ## Credits
 
+Used to following as references for the mobile drop-down menu: 
 ![](https://codepen.io/taufik-nurrohman/pen/kKVrrE)
+
+![](https://www.youtube.com/watch?v=FDh7Mdl2oww&list=PL4cUxeGkcC9g9Vh9MAA-XKnfJsWZnPZFw&index=9&themeRefresh=1)
 
 ## License
 
