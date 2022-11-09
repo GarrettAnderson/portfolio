@@ -195,7 +195,7 @@ footer {
 
     .my-work {
         display: flex;
-        height: 50rem;
+        /* height: 60rem; */
     }
 
     .my-work h2 {
@@ -206,7 +206,7 @@ footer {
         border-left: 5px solid #B9C2A3;
         width: 70%;
         margin: 0 auto;
-        overflow: scroll;
+        /* overflow: scroll; */
     }
 
     .my-work span {
