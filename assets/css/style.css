@@ -99,6 +99,10 @@ figcaption {
     width: 20% !important;
 } */
 
+.my-work ol {
+    padding-left: 0;
+}
+
 .my-work ol figcaption {
     width: 35%;
     background-color: #CBD4D1;
