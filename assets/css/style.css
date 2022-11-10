@@ -40,7 +40,7 @@ i.close-mobile-menu-icon {
     text-align: center;
     width: 100%;
     margin: 0;
-    visibility: hidden;
+    opacity: 0;
     /* display: none;  */
     /* -webkit-transition:all .26s ease-in-out;
     -moz-transition:all .26s ease-in-out;
@@ -51,7 +51,7 @@ i.close-mobile-menu-icon {
 
 .nav-list.open {
     height: 7rem;
-    visibility: visible;
+    opacity: 1;
     /* transition:all 2s ease-in-out;  */
 }
 
