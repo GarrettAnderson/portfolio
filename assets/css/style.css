@@ -85,6 +85,24 @@ img {
     width: 100%;
 }
 
+/* .my-work a:before {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top:0;
+    bottom: 0;
+    opacity: 0;
+    transition: all 0.5s ease-out;
+    background: linear-gradient(to bottom, transparent 0%, #CBD4D1 100%);
+}
+
+.my-work a:hover:before {
+    /* height: 100%; 
+    opacity: 0.8
+} */
+
 figcaption {
     position: relative;
     left: 8%;
