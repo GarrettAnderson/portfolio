@@ -197,23 +197,6 @@ footer {
         margin: 0;
     }
 
-    .contact-me {
-        display: flex;
-    }
-
-    .contact-me h2 {
-        /* width: 30%; */
-        width: 28.5%;
-    }
-
-    .contact-me ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 70%;
-        border-left: 5px solid #B9C2A3;
-
-    }
 
     .my-work {
         display: flex;
@@ -260,6 +243,23 @@ footer {
     .first-figcaption {
         left: 4%;
         width: 20% !important;
+    }
+
+    .contact-me {
+        display: flex;
+    }
+
+    .contact-me h2 {
+        width: 30%;
+    }
+
+    .contact-me ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+        border-left: 5px solid #B9C2A3;
+
     }
 
     /* .my-work ol figcaption {
