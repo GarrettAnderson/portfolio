@@ -179,7 +179,7 @@ footer p {
     
     .nav-list {
         display: inline;
-        visibility: visible;
+        opacity: 1;
     }
 
     .headshot {
