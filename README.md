@@ -19,6 +19,10 @@ Below is a screenshot for the tablet and desktop version of the site:
 
 ![](assets/images/portfolio-screenshot.png)
 
+Below is the screenshot for the mobile view:
+
+![](assets/images/portfolio-screenshot-mobile.png)
+
 
 
 ## Credits
