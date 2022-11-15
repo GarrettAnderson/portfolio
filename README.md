@@ -1,4 +1,4 @@
-# portfolio
+# Portfolio
 Portfolio of my development projects.
 
 ## Description
