@@ -85,8 +85,8 @@ h1, figure, section {
     line-height: 1.5;
 }
 
-img {
-    width: 100%;
+.my-work img {
+    width: 80%;
 }
 
 /* .my-work img {
@@ -207,43 +207,20 @@ footer p {
         margin: 0;
     }
 
-
-    .my-work {
-        display: flex;
-        /* height: 60rem; */
-    }
-
-    .my-work ol {
-        border-left: 5px solid #B9C2A3;
-        width: 70%;
-    }
-
     .my-work {
         display: grid;
         grid-template-columns: 30% 70%;
     }
 
-    .my-work li {
-        margin: 0;
+    .my-work ol {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        border-left: 5px solid #B9C2A3;
+        width: 70%;
     }
 
-    /* .my-work li:nth-child(3) {
-        position: relative;
-        bottom: 3.5rem;
-    }
-
-    .my-work li:nth-child(4) {
-        position: relative;
-        bottom: 3.5rem;
-    } */
-
-    .my-work span figure {
-        margin: 0;
-    }
-
-    .first-figcaption {
-        left: 4%;
-        width: 20% !important;
+    .first-project {
+        grid-column: span 2
     }
 
     .contact-me {
