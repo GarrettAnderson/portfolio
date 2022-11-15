@@ -11,7 +11,7 @@ Just need to download the source files from the github repository onto local. Op
 
 ## Usage
 
-The portfolio site is to be a represetnation of work I have accomplished. Currently there are placeholder images that can be clicked in order to navigate user to the Github repo for this project. 
+To portfolio site is to be a represetnation of work I have accomplished. Currently there are placeholder images that can be clicked in order to navigate user to the Github repo for this project. 
 
 The links in the contact me section will navigate user to my Github profile and LinkedIn profile. The view this application on Github Pages click [here](https://garrettanderson.github.io/portfolio/).
 
