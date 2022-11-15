@@ -89,7 +89,7 @@ img {
     width: 100%;
 }
 
-/* .my-work a:before {
+/* .my-work img {
     content: '';
     display: block;
     position: absolute;
@@ -102,10 +102,10 @@ img {
     background: linear-gradient(to bottom, transparent 0%, #CBD4D1 100%);
 }
 
-.my-work a:hover:before {
-    /* height: 100%; 
+.my-work a:hover::before {
+    height: 100%; 
     opacity: 0.8
-} */
+}  */
 
 figcaption {
     position: relative;
@@ -121,16 +121,15 @@ figcaption {
     width: 20% !important;
 } */
 
-.my-work ol {
-    padding-left: 0;
-}
+/* My Work section */
+
 
 .my-work ol figcaption {
     width: 35%;
     background-color: #CBD4D1;
 }
 
-.my-work span figcaption {
+.my-work figcaption {
     width: 40%;
     background-color: #CBD4D1;
 }
@@ -214,30 +213,21 @@ footer p {
         /* height: 60rem; */
     }
 
-    .my-work h2 {
-        width: 30%;
-    }
-
     .my-work ol {
         border-left: 5px solid #B9C2A3;
         width: 70%;
-        margin: 0 auto;
-        /* overflow: scroll; */
     }
 
-    .my-work span {
+    .my-work {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        padding: 2.5rem;
-        position: relative;
-        bottom: 8.2rem;
+        grid-template-columns: 30% 70%;
     }
 
-    .my-work span li {
+    .my-work li {
         margin: 0;
     }
 
-    .my-work li:nth-child(3) {
+    /* .my-work li:nth-child(3) {
         position: relative;
         bottom: 3.5rem;
     }
@@ -245,7 +235,7 @@ footer p {
     .my-work li:nth-child(4) {
         position: relative;
         bottom: 3.5rem;
-    }
+    } */
 
     .my-work span figure {
         margin: 0;
