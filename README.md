@@ -27,7 +27,7 @@ Below is the screenshot for the mobile view:
 
 ## Credits
 
-Used to following as references for the mobile drop-down menu and grid view: 
+Used to following as references: 
 
 [Codepen](https://codepen.io/taufik-nurrohman/pen/kKVrrE)
 
