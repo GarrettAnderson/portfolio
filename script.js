@@ -12,13 +12,13 @@ const header = document.querySelector('header')
 function openMenu() {
     navMenu.classList.add('open')
     menuIcon.style.display = 'none'
-    closeMenuIcon.style.display = 'inline'
+    closeMenuIcon.style.display = 'block'
 }
 
 function closeMenu() {
     navMenu.classList.remove('open')
     closeMenuIcon.style.display = 'none'
-    menuIcon.style.display = 'inline'
+    menuIcon.style.display = 'block'
 }
 
 menuIcon.addEventListener('click', openMenu)
