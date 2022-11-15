@@ -13,11 +13,13 @@ Just need to download the source files from the github repository onto local. Op
 
 The portfolio site is to be a represetnation of work I have accomplished. Currently there are placeholder images that can be clicked in order to navigate user to the Github repo for this project. 
 
-The links in the contact me section will navigate user to my Github profile and LinkedIn profile.
+The links in the contact me section will navigate user to my Github profile and LinkedIn profile. The view this application on Github Pages click [here](https://garrettanderson.github.io/portfolio/).
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
+Below is a screenshot for the tablet and desktop version of the site:
 
-![alt text](assets/images/screenshot.png)
+![](assets/images/portfolio-screenshot.png)
+
+
 
 ## Credits
 
