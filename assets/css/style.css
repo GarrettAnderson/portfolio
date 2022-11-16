@@ -21,6 +21,15 @@ header li {
     margin: 0.5rem;
 }
 
+section {
+    color: #F7F7F5;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
 .nav-menu {
     display: flex;
     flex-direction: column;
@@ -91,55 +100,13 @@ h1, figure, section {
     width: 80%;
 }
 
-/* .my-work img {
-    content: '';
-    display: block;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top:0;
-    bottom: 0;
-    opacity: 0;
-    transition: all 0.5s ease-out;
-    background: linear-gradient(to bottom, transparent 0%, #CBD4D1 100%);
-}
-
-.my-work a:hover::before {
-    height: 100%; 
-    opacity: 0.8
-}  */
-
-/* figcaption {
-    position: relative;
-    left: 8%;
-    bottom: 4rem;
-    border: 1px solid;
-    padding: 1rem;
-    width: 20%
-} */
-
-/* .first-figcaption {
-    left: 4%;
-    width: 20% !important;
-} */
-
-/* My Work section */
-
-
-/* .my-work ol figcaption {
-    width: 35%;
-    background-color: #CBD4D1;
-} */
-
 .my-work figcaption {
     background-color: #CBD4D1;
     border: 1px solid #fff;
-}
-
-section {
-    /* background-color: #CBD4D1; */
-    /* border-top: 10px solid #FE8946; */
-    color: #F7F7F5
+    position: relative;
+    width: 35%;
+    bottom: 3rem;
+    left: 5rem;
 }
 
 .contact-me ul {
