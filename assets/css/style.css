@@ -1,12 +1,10 @@
 body {
     margin: 0;
     font-family: 'Roboto', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    /* background-color: #CBD4D1; */
     background-color:#EBD2CF;
 }
 
 header {
-    /* background-color: #F53B00; */
     background-color: #CBD4D1;
     margin: 0;
     color: #F7F7F5;
@@ -57,11 +55,6 @@ i.burger-icon-menu {
     height: 7rem;
     opacity: 1;
     /* transition:all 2s ease-in-out;  */
-}
-
-li {
-    display: inline;
-    margin: 0.5rem 2rem;
 }
 
 a {
@@ -220,7 +213,11 @@ footer p {
     }
 
     .first-project {
-        grid-column: span 2
+        grid-column: span 2;
+    }
+
+    .my-work img {
+        width: 100%;
     }
 
     .contact-me {
