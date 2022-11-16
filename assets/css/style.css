@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     margin: 0;
     font-family: 'Roboto', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -10,6 +15,10 @@ header {
     color: #F7F7F5;
     border-bottom: 10px solid #B9C2A3;
     display: flex;
+}
+
+header li {
+    margin: 0.5rem;
 }
 
 .nav-menu {
@@ -100,14 +109,14 @@ h1, figure, section {
     opacity: 0.8
 }  */
 
-figcaption {
+/* figcaption {
     position: relative;
     left: 8%;
     bottom: 4rem;
     border: 1px solid;
     padding: 1rem;
     width: 20%
-}
+} */
 
 /* .first-figcaption {
     left: 4%;
@@ -117,14 +126,14 @@ figcaption {
 /* My Work section */
 
 
-.my-work ol figcaption {
+/* .my-work ol figcaption {
     width: 35%;
     background-color: #CBD4D1;
-}
+} */
 
 .my-work figcaption {
-    width: 40%;
     background-color: #CBD4D1;
+    border: 1px solid #fff;
 }
 
 section {
@@ -163,6 +172,11 @@ footer p {
         align-items: center;
         justify-content: flex-end;
         height: 4rem;
+    }
+
+    header li {
+        display: inline;
+        margin: 2.5rem
     }
 
     i.burger-icon-menu {
@@ -219,6 +233,32 @@ footer p {
     .my-work img {
         width: 100%;
     }
+
+    .my-work figure {
+        position: relative;
+    }
+    .my-work figcaption {
+        position: absolute;
+        bottom: 10px;
+    }
+
+    .my-work a::before {
+        content: '';
+        display: block;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top:0;
+        bottom: 0;
+        opacity: 0;
+        transition: all 0.5s ease-out;
+        background: linear-gradient(to bottom, transparent 0%, #CBD4D1 100%);
+    }
+
+    .my-work a:hover::before {
+        height: 100%; 
+        opacity: 0.8
+    }  
 
     .contact-me {
         display: flex;
