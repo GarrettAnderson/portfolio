@@ -9,16 +9,8 @@ body {
     background-color:#EBD2CF;
 }
 
-header {
-    background-color: #CBD4D1;
-    margin: 0;
-    color: #F7F7F5;
-    border-bottom: 10px solid #B9C2A3;
-    display: flex;
-}
-
-header li {
-    margin: 0.5rem;
+h1, figure, section {
+    text-align: center;
 }
 
 section {
@@ -32,6 +24,22 @@ h2 {
 
 a {
     cursor: pointer;
+    color: #F7F7F5;
+    text-decoration: none;
+}
+
+/* NAV Menu */
+
+header {
+    background-color: #CBD4D1;
+    margin: 0;
+    color: #F7F7F5;
+    border-bottom: 10px solid #B9C2A3;
+    display: flex;
+}
+
+header li {
+    margin: 0.5rem;
 }
 
 .nav-menu {
@@ -79,15 +87,11 @@ i.burger-icon-menu {
     /* transition:all 2s ease-in-out;  */
 }
 
-a {
-    color: #F7F7F5;
-    text-decoration: none;
-}
 
-h1, figure, section {
-    text-align: center;
-}
+/* Nav End */
 
+
+/* About Me section */
 .headshot {
     width: 30%;
     height: 20%;
@@ -100,6 +104,9 @@ h1, figure, section {
     line-height: 1.5;
 }
 
+/* About Me END */
+
+/* My Work Section */
 .my-work img {
     width: 80%;
 }
@@ -114,15 +121,15 @@ h1, figure, section {
     padding: 1rem;
 }
 
+/* Contact Me Section */
+
 .contact-me ul {
     display: flex;
     flex-direction: column;
     padding: 0;
 }
 
-/* .contact-me ul li {
-    border-bottom: 5px solid #B9C2A3;
-} */
+/* Contact Me END*/
 
 footer {
     background-color: #CBD4D1;
@@ -138,7 +145,7 @@ footer p {
 
 @media screen and (min-width: 768px) {
     
-
+    /* Nav menu section */
     header {
         display: flex;
         align-items: center;
@@ -164,6 +171,7 @@ footer p {
         opacity: 1;
     }
 
+    /* About me section */
     .headshot {
         width: 20%;
         padding-left: 2rem;
@@ -185,6 +193,8 @@ footer p {
     .about-me p {
         margin: 0;
     }
+
+    /* My work section */
 
     .my-work {
         display: grid;
@@ -244,6 +254,8 @@ footer p {
         opacity: 0.8
     }  
 
+    /* Contact me section */
+
     .contact-me {
         display: flex;
     }
@@ -260,24 +272,4 @@ footer p {
         border-left: 5px solid #B9C2A3;
 
     }
-
-
 }
-
-/* @media screen and (min-width: 992px) {
-    
-    .my-work span {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
-    .my-work li:nth-child(3) {
-        position: relative;
-        bottom: 0rem;
-    }
-
-    .my-work li:nth-child(4) {
-        position: relative;
-        top: -14.3rem;
-    }
-} */
