@@ -29,11 +29,13 @@ Below is the screenshot for the mobile view:
 
 Used the following as references: 
 
-* [Codepen](https://codepen.io/taufik-nurrohman/pen/kKVrrE)
+* [Codepen: Mobile Dropdown Nav](https://codepen.io/taufik-nurrohman/pen/kKVrrE)
 
 * [Net Ninja](https://www.youtube.com/watch?v=FDh7Mdl2oww&list=PL4cUxeGkcC9g9Vh9MAA-XKnfJsWZnPZFw&index=9&themeRefresh=1)
 
 * [CSS Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
+
+* [Codepen: Image Hover Feature](https://codepen.io/mikes000/pen/WQeOqW)
 
 ## License
 

@@ -1,17 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     margin: 0;
     font-family: 'Roboto', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    /* background-color: #CBD4D1; */
     background-color:#EBD2CF;
 }
 
 header {
-    /* background-color: #F53B00; */
     background-color: #CBD4D1;
     margin: 0;
     color: #F7F7F5;
     border-bottom: 10px solid #B9C2A3;
     display: flex;
+}
+
+header li {
+    margin: 0.5rem;
+}
+
+section {
+    color: #F7F7F5;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+a {
+    cursor: pointer;
 }
 
 .nav-menu {
@@ -59,11 +79,6 @@ i.burger-icon-menu {
     /* transition:all 2s ease-in-out;  */
 }
 
-li {
-    display: inline;
-    margin: 0.5rem 2rem;
-}
-
 a {
     color: #F7F7F5;
     text-decoration: none;
@@ -85,60 +100,18 @@ h1, figure, section {
     line-height: 1.5;
 }
 
-img {
-    width: 100%;
+.my-work img {
+    width: 80%;
 }
 
-/* .my-work a:before {
-    content: '';
-    display: block;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top:0;
-    bottom: 0;
-    opacity: 0;
-    transition: all 0.5s ease-out;
-    background: linear-gradient(to bottom, transparent 0%, #CBD4D1 100%);
-}
-
-.my-work a:hover:before {
-    /* height: 100%; 
-    opacity: 0.8
-} */
-
-figcaption {
+.my-work figcaption {
+    background-color: #CBD4D1;
+    border: 1px solid #fff;
     position: relative;
-    left: 8%;
-    bottom: 4rem;
-    border: 1px solid;
+    width: 20%;
+    bottom: 5rem;
+    left: 5rem;
     padding: 1rem;
-    width: 20%
-}
-
-/* .first-figcaption {
-    left: 4%;
-    width: 20% !important;
-} */
-
-.my-work ol {
-    padding-left: 0;
-}
-
-.my-work ol figcaption {
-    width: 35%;
-    background-color: #CBD4D1;
-}
-
-.my-work span figcaption {
-    width: 40%;
-    background-color: #CBD4D1;
-}
-
-section {
-    /* background-color: #CBD4D1; */
-    /* border-top: 10px solid #FE8946; */
-    color: #F7F7F5
 }
 
 .contact-me ul {
@@ -160,7 +133,7 @@ footer {
 
 footer p {
     margin-bottom: 0;
-    padding-bottom: 1rem;
+    padding: 1rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -171,6 +144,11 @@ footer p {
         align-items: center;
         justify-content: flex-end;
         height: 4rem;
+    }
+
+    header li {
+        display: inline;
+        margin: 2.5rem
     }
 
     i.burger-icon-menu {
@@ -208,53 +186,63 @@ footer p {
         margin: 0;
     }
 
-
     .my-work {
-        display: flex;
-        /* height: 60rem; */
+        display: grid;
+        grid-template-columns: 30% 70%;
     }
 
-    .my-work h2 {
-        width: 30%;
+    .my-work section {
+        border-left: 5px solid #B9C2A3;
     }
 
     .my-work ol {
-        border-left: 5px solid #B9C2A3;
-        width: 70%;
-        margin: 0 auto;
-        /* overflow: scroll; */
-    }
-
-    .my-work span {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        padding: 2.5rem;
+        grid-column-gap: 5px;
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    .first-project {
+        grid-column: span 2;
+    }
+
+    .my-work img {
+        width: 100%;
+    }
+
+    .my-work figure {
         position: relative;
-        bottom: 8.2rem;
     }
 
-    .my-work span li {
-        margin: 0;
+    .my-work figure:hover {
+        cursor: pointer;
     }
 
-    .my-work li:nth-child(3) {
-        position: relative;
-        bottom: 3.5rem;
+    .my-work figcaption {
+        position: absolute;
+        bottom: 10px;
+        width: 50%;
+        left: 1rem;
     }
 
-    .my-work li:nth-child(4) {
-        position: relative;
-        bottom: 3.5rem;
+    .my-work a::before {
+        content: '';
+        display: block;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top:0;
+        bottom: 0;
+        opacity: 0;
+        transition: all 0.5s ease-out;
+        background: #CBD4D1;
     }
 
-    .my-work span figure {
-        margin: 0;
-    }
-
-    .first-figcaption {
-        left: 4%;
-        width: 20% !important;
-    }
+    .my-work a:hover::before {
+        height: 100%; 
+        opacity: 0.8
+    }  
 
     .contact-me {
         display: flex;
