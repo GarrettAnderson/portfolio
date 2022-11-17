@@ -30,6 +30,10 @@ h2 {
     font-size: 2rem;
 }
 
+a {
+    cursor: pointer;
+}
+
 .nav-menu {
     display: flex;
     flex-direction: column;
@@ -114,10 +118,6 @@ h1, figure, section {
     display: flex;
     flex-direction: column;
     padding: 0;
-}
-
-.contact-me a, .my-work a{
-    cursor: pointer;
 }
 
 /* .contact-me ul li {
